@@ -1,0 +1,1 @@
+.alert{position:fixed!important;width:43%;z-index:1000;top:3%;right:3%;transition:ease-in .5s all;animation:andres 1s}@keyframes andres{0%{opacity:0}to{opacity:1}}

@@ -1,0 +1,1 @@
+import{u as n,S as c}from"./ServerCall.7354e88a.js";const r=n(),i={login:async(o,t)=>{try{return await c.post("/user/login",{email:o,password:t}).then(a=>{const s=a.data;return r.setUserData(s.user.id,s.user.nickname,s.accessToken,s.user.rol),!0})}catch(e){throw e}},logout:async()=>{r.clearUserData()}};export{i as L};
